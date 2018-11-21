@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  author: Nishant Parhi
+  description: Install and Update using roles 
+  min_ansible_version: 2.4
+  platforms:
+  - name: Fedora
+    versions:
+    - all
+
+  galaxy_tags: []
+
+dependencies: []
+

@@ -1,0 +1,34 @@
+---
+  - name: Install vim
+    dnf:
+      name: vim
+      state: present
+  
+  - name: Install git
+    dnf:
+      name: git
+      state: latest
+  
+  - name: Install nano
+    dnf:
+      name: nano
+      state: latest
+    
+  - name: Update vim
+    dnf:
+      name: vim
+      enablerepo: updates-testing
+      state: present
+
+  - name: Update git
+    dnf:
+      name: git
+      enablerepo: updates-testing
+      state: present
+
+  - name: Update nano
+    dnf:
+      name: nano
+      enablerepo: updates-testing
+      state: present
+...
